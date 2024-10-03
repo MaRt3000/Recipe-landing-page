@@ -1,0 +1,139 @@
+
+.body {
+    background-color: bisque;
+    width: 100%;
+
+}
+.image-omelette {
+    border-radius: 30px;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 16px;
+    background-color: rgb(253, 251, 251);
+    width: 40%;
+    border-radius: 30px;
+    padding: 2rem;
+    margin: 0 auto;
+
+}
+.Preparation-time-c{
+    background-color: rgb(248, 242, 247);
+    margin-left: 0.5px;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.Preparation-time-h {
+    color: rgb(114, 63, 98);
+}
+ul {
+    line-height: 30px;
+}
+ol {
+    line-height: 25px;
+}
+.Ingredients-h,
+.Instructions-h {
+    color: rgb(142, 94, 94);
+}
+.Instructions-c {
+    padding: 2rem;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+td {
+    padding-right: 200px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    border-bottom: solid; 
+    padding-top: 30px;
+}
+.td1,
+.td12 {
+    border-bottom: 0px;
+}
+
+@media (max-width: 910px){
+
+.body {
+    background-color: bisque;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.container {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 14px;
+    background-color: rgb(253, 251, 251);
+    padding: 2rem;
+    margin: 2rem;
+    width: 300px;
+}
+.Preparation-time-c{
+    background-color: rgb(248, 242, 247);
+    margin-left: 0.5px;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.Preparation-time-h,
+.Nutrition-h {
+    color: rgb(114, 63, 98);
+}
+ul {
+    line-height: 30px;
+}
+ol {
+    line-height: 25px;
+}
+.Ingredients-h,
+.Instructions-h,
+.td2,
+.td12 {
+    color: rgb(142, 94, 94);
+}
+.Instructions-c {
+    
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+ol,
+ul {
+    padding-left: 25px;
+}
+td {
+    padding-right: 60px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    border-bottom: solid; 
+    padding-top: 30px;
+}
+table {
+    border-collapse: collapse;
+}
+.td1,
+.td12 {
+    border-bottom: 0px;
+}
+
+
+}
